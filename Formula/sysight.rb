@@ -2,27 +2,27 @@
 class Sysight < Formula
   desc "SysML v2 insight: a SysML v2 and KerML model server and command-line tool"
   homepage "https://www.modelware.io"
-  version "0.1.7"
+  version "0.1.8"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/modelware/sysight/releases/download/v0.1.7/sysight-aarch64-apple-darwin.tar.gz"
-      sha256 "3bacf5cbad2874e2785244d69496696370192b6164558387b6f86096f3e65c5d"
+      url "https://github.com/modelware/sysight/releases/download/v0.1.8/sysight-aarch64-apple-darwin.tar.gz"
+      sha256 "01e2e99909d4ff956321ff0ab0b607f2972db43fd3a8992ddf46e906ef3cc710"
     end
     on_intel do
-      url "https://github.com/modelware/sysight/releases/download/v0.1.7/sysight-x86_64-apple-darwin.tar.gz"
-      sha256 "15d1dd593ad6b43b7334546e5fd11b16c6a77de259608327a2d771da7dbe2291"
+      url "https://github.com/modelware/sysight/releases/download/v0.1.8/sysight-x86_64-apple-darwin.tar.gz"
+      sha256 "d53a79763cdf269e9adbc558c33a8ab407acec085a3b84e1d5199db3cbf1f1ac"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/modelware/sysight/releases/download/v0.1.7/sysight-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "943be795b6cc2895790ba3c892e76e3c6d01cda626cd6fcddd5a394c6f58101a"
+      url "https://github.com/modelware/sysight/releases/download/v0.1.8/sysight-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9b9f164ea4a6d749edfbc1f18b5edfa2624badb508a7273d522bb566368f3156"
     end
     on_intel do
-      url "https://github.com/modelware/sysight/releases/download/v0.1.7/sysight-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ebc1e1d3a2ff4b1afb12202a94c4c90eec383d88794201e337a48dff09728941"
+      url "https://github.com/modelware/sysight/releases/download/v0.1.8/sysight-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ed41bc0b51f33d1d9c47f170c8d31d486451bce296bbe33a2a1ed636c497bbd3"
     end
   end
 
