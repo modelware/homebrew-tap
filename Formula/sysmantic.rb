@@ -2,27 +2,27 @@
 class Sysmantic < Formula
   desc "SysML v2 semantic IDE: a SysML v2 and KerML model server and command-line tool"
   homepage "https://www.modelware.io"
-  version "0.2.1"
+  version "0.3.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/modelware/sysmantic/releases/download/v0.2.1/sysmantic-aarch64-apple-darwin.tar.gz"
-      sha256 "9c958be0ae2f904ea4af091561fde055f6d1079827837c9ae0c65cbb7dd3f3d7"
+      url "https://github.com/modelware/sysmantic/releases/download/v0.3.0/sysmantic-aarch64-apple-darwin.tar.gz"
+      sha256 "e64bb52ba04a8cc62388822257d1b814014eb60ec5bb3169129189c1db72dd3e"
     end
     on_intel do
-      url "https://github.com/modelware/sysmantic/releases/download/v0.2.1/sysmantic-x86_64-apple-darwin.tar.gz"
-      sha256 "b8b8f59e499623559296560529bf9cb873dc05c611b4ce4e1fde21229c267588"
+      url "https://github.com/modelware/sysmantic/releases/download/v0.3.0/sysmantic-x86_64-apple-darwin.tar.gz"
+      sha256 "d9d5c658204384906998c38fa817e610fe40d7188f14d4fdc509e45bf8f23e5b"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/modelware/sysmantic/releases/download/v0.2.1/sysmantic-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "567e78170f1babb7c1fd91c61b2577bee8c7e6efca55194c5e26c5f5bbf97226"
+      url "https://github.com/modelware/sysmantic/releases/download/v0.3.0/sysmantic-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fb4e17fd7bb28c1e0bc7597b580ca2afec152f8a45cdfdbd1fd4fb58e289641e"
     end
     on_intel do
-      url "https://github.com/modelware/sysmantic/releases/download/v0.2.1/sysmantic-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "01191646a77abdf5400f332e2c87e7f7e7a1aa6e9d1a1b5464536d75e2caa31c"
+      url "https://github.com/modelware/sysmantic/releases/download/v0.3.0/sysmantic-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1b0eb09020fb8566c7180bb4094fd448266dbd9f788617efe34fcbba685570a8"
     end
   end
 
